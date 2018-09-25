@@ -3,6 +3,8 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import Travel from "./Travel";
+import Travels from "./Travels";
+
 
 class App extends Component {
   render() {
@@ -24,6 +26,7 @@ class App extends Component {
           photo="https://upload.wikimedia.org/wikipedia/commons/7/70/Milan_Cathedral_from_Piazza_del_Duomo.jpg"
           distance="800Km"
         />
+        <Travels/>
       </div>
     );
   }
